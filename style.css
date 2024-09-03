@@ -1,0 +1,137 @@
+* {
+    font-family: Roboto, sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #777;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+
+}
+
+li {
+    display: inline;
+    float: inline-end;
+    padding-bottom: 0px;
+    
+
+}
+
+.navbar-text {
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 19px;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.navbar-text:hover {
+    background-color: #666;   
+    transition: 0.3s;
+}
+
+#navbar-text {
+    padding-right: 20px;
+}
+
+#home {
+    background-image: url(img/1.png);
+    width: 100%;
+    height: 100%;
+    padding: 10;
+    border-radius: 5px;
+}
+
+#programmiersprachen {
+    background-image: url(img/2.png);
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+#pixelpulse {
+    background-image: url(img/9.png);
+    border-radius: 5px;
+}
+
+#ich {
+    border-radius: 5px;
+    background-image: url(img/5.png);
+}
+
+#abschied {
+    border-radius: 5px;
+    text-align: left;
+}
+
+#home-h1-1 {
+    text-align: center;
+    font-size: 90px;
+    box-shadow: black 0px 0px 5px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+#home-h3-1 {
+    text-align: center;
+    box-shadow: black 0px 0px 5px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    box-shadow: black 0px 0px 5px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+#programmiersprache-h1-1 {
+    text-align: center;
+    box-shadow: black 0px 0px 5px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+#programmiersprache-h3-1 {
+    text-align: center;
+    box-shadow: black 0px 0px 5px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+#pixelpulse-h1-1{
+    text-align: center;
+    box-shadow: black 0px 0px 5px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+#pixelpulse-h3-1 {
+    text-align: center;
+    box-shadow: black 0px 0px 5px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+.right-wrong {
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: black 0px 0px 5px;
+    backdrop-filter: blur(5px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
